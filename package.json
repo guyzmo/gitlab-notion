@@ -1,0 +1,16 @@
+{
+  "name": "notion_gitlab",
+  "version": "0.0.1",
+  "description": "Synchronizes from gitlab issues to notion",
+  "main": "notion_gitlab.js",
+  "scripts": {
+    "start": "node notion_gitlab.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bernard Pratz <bernard.pratz@zeloce.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^0.1.3",
+    "gitlab": "^14.2.2"
+  }
+}
